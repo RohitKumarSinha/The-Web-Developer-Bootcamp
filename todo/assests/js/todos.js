@@ -14,7 +14,7 @@ $("ul").on("click", "span", function(event){
 	event.stopPropagation();
 });
 
-
+// take the user input when keyboard is entered
 $("input[type='text']").keypress(function(event){
   if (event.which === 13){
   	// grabbing new todo next from input
@@ -25,6 +25,7 @@ $("input[type='text']").keypress(function(event){
   }
 });
 
+// toggle the form
  $("#toggle-form").click(function(){
 	$("input[type='text']").fadeToggle();
 });
