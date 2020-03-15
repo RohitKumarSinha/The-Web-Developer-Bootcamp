@@ -1,8 +1,10 @@
 window.setTimeout(function(){
     var todo = [];
     
+    // ask the user to enter the input
     var input = prompt("what is your choice");
 
+   // calling the function a/c to user choic
     while (input !== "quit")
     {
         if (input === "new")
@@ -24,7 +26,8 @@ window.setTimeout(function(){
     }
 
     console.log("0k, you quit the app");
-
+   
+    // function defination
     function listtodo()
     {
         console.log("*************");
